@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="cucc.js"></script> 
+</head>
+<body>
+    <form action="">
+        <label for="Mnev">Megrendelő neve: </label>
+        <input type="text" id="Mnev" name="Mnev" value=""><br>
+        <label for="Mcim">Megrendelő címe: </label>
+        <input type="text" id="Mcim" name="Mcim" value=""><br>
+        <label for="Mcim">Megrendelő telefonszáma: </label>
+        <input type="tel" id="Mtele" name="Mtele" value="+36 "><br><br>
+        <button onclick="cucc()" type="button">Elküld</button>
+    </form> 
+<br><br>
+      <form action="">
+        <h1>Visszaigazolás</h1>
+        <p id="vnev">Név: ?</p>
+        <p id="vcim">Cím: ?</p>
+        <p id="vtele">Telefon: ?</p>
+      </form>
+      
+</body>
+</html>
